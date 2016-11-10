@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
         ivCat.setImageBitmap(catBitmap);
 
         //Synchronous - Only scaleDown
-        Bitmap wolfBitmap = GaussianBlur.with(this).maxSixe(50).radius(10).scaleDown(R.mipmap.wolf);
+        Bitmap wolfBitmap = GaussianBlur.with(this).maxSixe(50).scaleDown(R.mipmap.wolf);
         ivWolf.setImageBitmap(wolfBitmap);
 
         //Asynchronous
-        GaussianBlur.with(this).maxSixe(350).radius(10).put(R.mipmap.stone, ivStone);
+        GaussianBlur.with(this).maxSixe(400).radius(25).put(R.mipmap.stone, ivStone);
     }
 }
