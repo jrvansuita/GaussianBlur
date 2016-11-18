@@ -47,3 +47,6 @@ This class lets you apply a fast Gaussian Blur on any images. A larger image wil
 
 # Screenshot
 ![test](screenshot/screenshot.jpg? "Screenshot")
+
+# License
+See the [LICENSE](/LICENSE.txt). file for license rights and limitations (MIT).
