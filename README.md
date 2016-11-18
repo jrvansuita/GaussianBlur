@@ -43,3 +43,7 @@ This class lets you apply a fast Gaussian Blur on any images. A larger image wil
     
     //Asynchronous
     GaussianBlur.with(context).maxSixe(400).radius(25).put(R.mipmap.your_image, imageView);
+
+
+# Screenshot
+![test](screenshot/screenshot.jpg? "Screenshot")
