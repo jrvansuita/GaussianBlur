@@ -25,7 +25,7 @@ This class lets you apply a fast Gaussian Blur on any images. A larger image wil
 #### Step 2. Add the dependency
 
     dependencies {
-	        compile 'com.github.jrvansuita:GaussianBlur:v1.0.1'
+	        compile 'com.github.jrvansuita:GaussianBlur:v1.0.2'
 	}
 
 # Samples

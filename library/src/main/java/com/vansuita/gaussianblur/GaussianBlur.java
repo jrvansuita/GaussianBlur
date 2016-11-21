@@ -1,4 +1,4 @@
-package com.vansuita.library;
+package com.vansuita.gaussianblur;
 
 import android.content.Context;
 import android.graphics.Bitmap;

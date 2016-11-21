@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vansuita.gaussianblur">
+    package="com.vansuita.gaussianblur.sample">
 
     <application
         android:allowBackup="true"

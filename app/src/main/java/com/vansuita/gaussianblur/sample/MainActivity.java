@@ -1,11 +1,12 @@
-package com.vansuita.gaussianblur;
+package com.vansuita.gaussianblur.sample;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
-import com.vansuita.library.GaussianBlur;
+import com.vansuita.gaussianblur.GaussianBlur;
+
 
 public class MainActivity extends AppCompatActivity {
 

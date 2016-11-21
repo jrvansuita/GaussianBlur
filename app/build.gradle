@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "com.vansuita.gaussianblur"
+        applicationId "com.vansuita.gaussianblur.sample"
         minSdkVersion 9
         targetSdkVersion 25
         versionCode 1
@@ -18,5 +18,6 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:25.0.0'
-    compile 'com.github.jrvansuita:GaussianBlur:v1.0.1'
+   // compile 'com.github.jrvansuita:GaussianBlur:v1.0.1'
+    compile project(':library')
 }
