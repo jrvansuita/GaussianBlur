@@ -27,6 +27,15 @@ This class lets you apply a fast Gaussian Blur on any images. A larger image wil
     dependencies {
 	        compile 'com.github.jrvansuita:GaussianBlur:v1.0.2'
 	}
+	
+#### Step 3. Add the below lines on app module build.gradle file.
+
+    defaultConfig {
+        ...
+        renderscriptTargetApi 19
+        renderscriptSupportModeEnabled true
+    }
+
 
 # Samples
  You can take a look at the sample app [located on this project](/app/).
