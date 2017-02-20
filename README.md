@@ -19,7 +19,7 @@ This is an [**Android**](https://developer.android.com) project. Easy and simple
  <!-- Hits Count -->[![ghit.me](https://ghit.me/badge.svg?repo=jrvansuita/GaussianBlur)](https://ghit.me/repo/jrvansuita/GaussianBlur)
 
 # Sample app
- Please check the sample app and feel free to help with a pull request. You can take a look at the sample app [located on this project](/app/).
+ Please check the sample app and feel free to help with a pull request. It's [located here](/app/).
 
 <img src="images/mockups/allosaurus_nexus6p-portrait.png" height='auto' width='200'/>
 <img src="images/mockups/triceratops_nexus6p-portrait.png" height='auto' width='200'/>
