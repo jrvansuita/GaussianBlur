@@ -8,6 +8,8 @@ import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.support.annotation.FloatRange;
 import android.support.annotation.IntRange;
+import android.support.annotation.UiThread;
+import android.support.annotation.WorkerThread;
 import android.support.v8.renderscript.Allocation;
 import android.support.v8.renderscript.RenderScript;
 import android.support.v8.renderscript.ScriptIntrinsicBlur;
@@ -40,14 +42,17 @@ public class GaussianBlur {
         return new GaussianBlur(context);
     }
 
+    @WorkerThread
     public Bitmap render(int res) {
         return render(BitmapFactory.decodeResource(context.getResources(), res));
     }
 
+    @WorkerThread
     public Bitmap render(Drawable drawable) {
         return render(((BitmapDrawable) drawable).getBitmap());
     }
 
+    @WorkerThread
     public Bitmap render(Bitmap bitmap) {
         RenderScript rs = RenderScript.create(context);
 
@@ -70,22 +75,27 @@ public class GaussianBlur {
         return output;
     }
 
+    @UiThread
     public void put(Drawable drawable, ImageView imageView) {
         new BitmapGaussianAsync(imageView).execute(((BitmapDrawable) drawable).getBitmap());
     }
 
+    @UiThread
     public void put(Bitmap bitmap, ImageView imageView) {
         new BitmapGaussianAsync(imageView).execute(bitmap);
     }
 
+    @UiThread
     public void put(int res, ImageView imageView) {
         new ResourceGaussianAsync(imageView).execute(res);
     }
 
+    @WorkerThread
     public Bitmap scaleDown(int res) {
         return scaleDown(BitmapFactory.decodeResource(context.getResources(), res));
     }
 
+    @WorkerThread
     public Bitmap scaleDown(Bitmap input) {
         float ratio = Math.min(getSize() / input.getWidth(), getSize() / input.getHeight());
         int width = Math.round(ratio * input.getWidth());

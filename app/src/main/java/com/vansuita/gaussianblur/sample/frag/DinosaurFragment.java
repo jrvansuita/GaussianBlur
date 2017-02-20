@@ -2,6 +2,7 @@ package com.vansuita.gaussianblur.sample.frag;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -19,8 +20,6 @@ import com.vansuita.gaussianblur.sample.act.MainActivity;
 import com.vansuita.gaussianblur.sample.anim.Animate;
 import com.vansuita.gaussianblur.sample.lis.IOnSettingsChanged;
 
-import java.util.Arrays;
-
 
 /**
  * Created by jrvansuita on 18/02/17.
@@ -31,7 +30,7 @@ public class DinosaurFragment extends Fragment implements View.OnTouchListener {
 
     private ImageView ivRawImage;
     private ImageView ivBlurredImage;
-
+    private Handler handler;
     private int dinosaurId;
 
     @Override
@@ -93,13 +92,39 @@ public class DinosaurFragment extends Fragment implements View.OnTouchListener {
         }
     }
 
+
     @Override
     public boolean onTouch(View view, MotionEvent motionEvent) {
-        if (Arrays.asList(MotionEvent.ACTION_DOWN, MotionEvent.ACTION_UP).contains(motionEvent.getAction()))
-            Animate.with(ivBlurredImage).toggleVisibility();
-
+        if (motionEvent.getAction() != MotionEvent.ACTION_MOVE)
+            runDetectUnblurRequested(motionEvent.getAction());
         return true;
     }
+
+    private void runDetectUnblurRequested(final int action) {
+        if (handler != null) {
+            handler.removeCallbacksAndMessages(null);
+            handler = null;
+        }
+
+        switch (action) {
+            case MotionEvent.ACTION_CANCEL:
+                ivBlurredImage.setVisibility(View.VISIBLE);
+                break;
+            case MotionEvent.ACTION_DOWN:
+                handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        Animate.with(ivBlurredImage).toggleVisibility();
+                    }
+                }, 200);
+                break;
+            case MotionEvent.ACTION_UP:
+                Animate.with(ivBlurredImage).toggleVisibility();
+                break;
+        }
+    }
+
 
     private IOnSettingsChanged onSettingsChanged = new IOnSettingsChanged() {
         @Override
