@@ -19,50 +19,55 @@ This is an [**Android**](https://developer.android.com) project. Easy and simple
 
 # Screenshots
 
-<img src="images/mockups/allosaurus_nexus6p-portrait.png" height='auto' width='280'/>
-<img src="images/mockups/triceratops_nexus6p-portrait.png" height='auto' width='280'/>
-<img src="images/mockups/brontosaurus_nexus6p-portrait.png" height='auto' width='280'/>
-<img src="images/mockups/velociraptor_nexus6p-portrait.png" height='auto' width='280'/>
+<img src="images/mockups/allosaurus_nexus6p-portrait.png" height='auto' width='200'/>
+<img src="images/mockups/triceratops_nexus6p-portrait.png" height='auto' width='200'/>
+<img src="images/mockups/brontosaurus_nexus6p-portrait.png" height='auto' width='200'/>
+<img src="images/mockups/velociraptor_nexus6p-portrait.png" height='auto' width='200'/>
 
 # Setup
 
 #### Step #1. Add the JitPack repository to your build file:
+
 ```gradle
-    allprojects {
-		repositories {
-			...
-			maven { url "https://jitpack.io" }
-		}
-	}
-```
-#### Step #2. Add the dependency ([See latest release](https://jitpack.io/#jrvansuita/GaussianBlur)).
-```groovy
-    dependencies {
-           compile 'com.github.jrvansuita:GaussianBlur:+'
-	}
-```
-#### Step #3. Add the below lines on app module build.gradle file.
-```groovy
-    defaultConfig {
+allprojects {
+    repositories {
         ...
-        renderscriptTargetApi 19
-        renderscriptSupportModeEnabled true
+        maven { url "https://jitpack.io" }
     }
+}
+```
+
+#### Step #2. Add the dependency ([See latest release](https://jitpack.io/#jrvansuita/GaussianBlur)).
+
+```groovy
+dependencies {
+    compile 'com.github.jrvansuita:GaussianBlur:+'
+}
+```
+
+#### Step #3. Add the below lines on app module build.gradle file.
+
+```groovy
+defaultConfig {
+    ...
+    renderscriptTargetApi 19
+    renderscriptSupportModeEnabled true
+}
 ```
 
 # Implementation
 
 ```java
-    //Synchronous
-    Bitmap blurredBitmap = GaussianBlur.with(context).radius(25).noScaleDown(true).render(R.mipmap.your_image);
-    imageView.setImageBitmap(blurredBitmap);
+//Synchronous
+Bitmap blurredBitmap = GaussianBlur.with(context).radius(25).render(R.mipmap.your_image);
+imageView.setImageBitmap(blurredBitmap);
     
-    //Synchronous - Only scaleDown
-    Bitmap scaledDownBitmap = GaussianBlur.with(context).maxSixe(50).scaleDown(R.mipmap.your_image);
-    imageView.setImageBitmap(scaledDownBitmap);
+//Synchronous - Only scaleDown
+Bitmap scaledDownBitmap = GaussianBlur.with(context).size(50).scaleDown(R.mipmap.your_image);
+imageView.setImageBitmap(scaledDownBitmap);
     
-    //Asynchronous
-    GaussianBlur.with(context).maxSixe(400).radius(25).put(R.mipmap.your_image, imageView);
+//Asynchronous blur
+GaussianBlur.with(context).size(400).radius(25).put(R.mipmap.your_image, imageView);
  ```
    
     
