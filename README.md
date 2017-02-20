@@ -1,10 +1,12 @@
 <!-- Library Logo -->
 <img src="https://github.com/jrvansuita/GaussianBlur/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true" align="left" hspace="1" vspace="1">
 
-<!-- Buy me a cup of coffe -->
-<a href='https://ko-fi.com/A406JCM' style='margin:13px;' target='_blank' align="right"><img align="right" height='36' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=f' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 <a href='https://play.google.com/store/apps/details?id=com.vansuita.materialabout.sample&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='_blank' align="right"><img align="right" height='36' src='https://s20.postimg.org/muzx3w4jh/google_play_badge.png' alt='Get it on Google Play' /></a>
+<a href='https://beerpay.io/jrvansuita/GaussianBlur' style='margin:13px;' target='_blank' align="right"><img align="right" height='36' src='https://beerpay.io/jrvansuita/GaussianBlur/badge.svg' alt='Pay Me a beer at beerpay.io' /></a>
+<a href='https://ko-fi.com/A406JCM' style='margin:13px;' target='_blank' align="right"><img align="right" height='36' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=f' alt='Buy Me a Coffee at ko-fi.com' /></a>
 # Gaussian Blur
+
 
 
 This is an [**Android**](https://developer.android.com) project. Easy and simple library to apply gaussian blur filter on images. The library lets you apply a fast gaussian blur filter on any images very fast because the image will be scaled down before apply the filter. Doing it asynchronous or not.
@@ -17,7 +19,7 @@ This is an [**Android**](https://developer.android.com) project. Easy and simple
 </a><!-- Android Arsenal -->
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-GaussianBlur-green.svg?style=true)](https://android-arsenal.com/details/1/4573) [![MaterialUp](https://img.shields.io/badge/MaterialUp-MaterialAbout-6ad0d9.svg?)](https://www.uplabs.com/posts/MaterialAbout)<!-- License -->
 <a target="_blank" href="/LICENSE.txt"><img src="http://img.shields.io/:License-MIT-yellow.svg" alt="MIT License" /></a><!-- Minimun Android Api -->
-<a target="_blank" href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#GINGERBREAD"><img src="https://img.shields.io/badge/API-9%2B-blue.svg?style=flat" alt="API" /></a> [![Codacy Badge](https://api.codacy.com/project/badge/Grade/118bb89e3bed43e2b462201654224a60)](https://www.codacy.com/app/jrvansuita/GaussianBlur?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jrvansuita/GaussianBlur&amp;utm_campaign=Badge_Grade) <!-- Apptize.io -->[![Appetize.io](https://img.shields.io/badge/Apptize.io-Run%20Now-brightgreen.svg?)](https://appetize.io/embed/7j6x11afygur1cn94zbme5dp1w?device=nexus7&scale=50&autoplay=true&orientation=portrait&deviceColor=black) [![Demo](https://img.shields.io/badge/Demo-Download-blue.svg)](http://apk-dl.com/dl/com.vansuita.gaussianblur.sample) <!-- Hits Count -->[![ghit.me](https://ghit.me/badge.svg?repo=jrvansuita/GaussianBlur)](https://ghit.me/repo/jrvansuita/GaussianBlur)<!--Open Source --> [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/jrvansuita) [![Beerpay](https://beerpay.io/jrvansuita/GaussianBlur/badge.svg?style=flat)](https://beerpay.io/jrvansuita/GaussianBlur)
+<a target="_blank" href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#GINGERBREAD"><img src="https://img.shields.io/badge/API-9%2B-blue.svg?style=flat" alt="API" /></a> [![Codacy Badge](https://api.codacy.com/project/badge/Grade/118bb89e3bed43e2b462201654224a60)](https://www.codacy.com/app/jrvansuita/GaussianBlur?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jrvansuita/GaussianBlur&amp;utm_campaign=Badge_Grade) <!-- Apptize.io -->[![Appetize.io](https://img.shields.io/badge/Apptize.io-Run%20Now-brightgreen.svg?)](https://appetize.io/embed/7j6x11afygur1cn94zbme5dp1w?device=nexus7&scale=50&autoplay=true&orientation=portrait&deviceColor=black) [![Demo](https://img.shields.io/badge/Demo-Download-blue.svg)](http://apk-dl.com/dl/com.vansuita.gaussianblur.sample) <!-- Hits Count -->[![ghit.me](https://ghit.me/badge.svg?repo=jrvansuita/GaussianBlur)](https://ghit.me/repo/jrvansuita/GaussianBlur)
 
 # Screenshots
 
