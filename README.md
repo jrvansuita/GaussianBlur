@@ -4,7 +4,6 @@
 
 <a href='https://play.google.com/store/apps/details?id=com.vansuita.gaussianblur.sample&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='_blank' align="right"><img align="right" height='36' src='https://s20.postimg.org/muzx3w4jh/google_play_badge.png' /></a>
 <a href='https://ko-fi.com/A406JCM' target='_blank' align="right"><img align="right" height='36' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=f'/></a>
-<a href='https://beerpay.io/jrvansuita/GaussianBlur' target='_blank' align="right"><img align="right" height='36' src='https://beerpay.io/jrvansuita/GaussianBlur/badge.svg'  /></a>
 # Gaussian Blur
 
 
@@ -13,13 +12,11 @@ This is an [**Android**](https://developer.android.com) project. Easy and simple
 
 </br>
 
-<!-- JitPack integration -->
-[![](https://jitpack.io/v/jrvansuita/GaussianBlur.svg)](https://jitpack.io/#jrvansuita/GaussianBlur)
-<img alt="Latest release" src="https://img.shields.io/github/release/jrvansuita/GaussianBlur.svg" />
-</a><!-- Android Arsenal -->
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-GaussianBlur-green.svg?style=true)](https://android-arsenal.com/details/1/4640) [![MaterialUp](https://img.shields.io/badge/MaterialUp-GaussianBlur-6ad0d9.svg?)](https://www.uplabs.com/posts/GaussianBlur)<!-- License -->
-<a target="_blank" href="/LICENSE.txt"><img src="http://img.shields.io/:License-MIT-yellow.svg" alt="MIT License" /></a><!-- Minimun Android Api -->
-<a target="_blank" href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#GINGERBREAD"><img src="https://img.shields.io/badge/API-9%2B-blue.svg?style=flat" alt="API" /></a>  <!-- Hits Count -->[![ghit.me](https://ghit.me/badge.svg?repo=jrvansuita/GaussianBlur)](https://ghit.me/repo/jrvansuita/GaussianBlur)
+
+[![JitPak](https://jitpack.io/v/jrvansuita/GaussianBlur.svg)](https://jitpack.io/#jrvansuita/GaussianBlur)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-GaussianBlur-green.svg?style=true)](https://android-arsenal.com/details/1/4640) 
+[![MaterialUp](https://img.shields.io/badge/MaterialUp-GaussianBlur-6ad0d9.svg?)](https://www.uplabs.com/posts/GaussianBlur)
+ <!-- Hits Count -->[![ghit.me](https://ghit.me/badge.svg?repo=jrvansuita/GaussianBlur)](https://ghit.me/repo/jrvansuita/GaussianBlur)
 
 # Screenshots
 
@@ -30,7 +27,7 @@ This is an [**Android**](https://developer.android.com) project. Easy and simple
 
  [![Appetize.io](https://img.shields.io/badge/Apptize.io-Run%20Now-brightgreen.svg?)](https://appetize.io/embed/uvqk1ee5m2pw1genqtayncfw70?device=nexus7&scale=50&autoplay=true&orientation=portrait&deviceColor=black) [![Demo](https://img.shields.io/badge/Demo-Download-blue.svg)](http://apk-dl.com/dl/com.vansuita.gaussianblur.sample) 
  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3fd61fd7128145008894a8cec0d1f8fc)](https://www.codacy.com/app/jrvansuita/GaussianBlur?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jrvansuita/GaussianBlur&amp;utm_campaign=Badge_Grade)
-
+<a target="_blank" href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#GINGERBREAD"><img src="https://img.shields.io/badge/API-9%2B-blue.svg?style=flat" alt="API" /></a> 
 
 # Setup
 
@@ -82,6 +79,7 @@ GaussianBlur.with(context).size(400).radius(25).put(R.mipmap.your_image, imageVi
 # Sample app code.
  Please check the sample app and feel free to help with a pull request. You can take a look at the sample app [located on this project](/app/).
  
+# Support
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/jrvansuita) [![Beerpay](https://beerpay.io/jrvansuita/MaterialAbout/badge.svg?style=flat)](https://beerpay.io/jrvansuita/MaterialAbout)
 
 #
