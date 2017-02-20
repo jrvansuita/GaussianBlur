@@ -14,7 +14,7 @@ This is an [**Android**](https://developer.android.com) project. Easy and simple
 
 [![JitPak](https://jitpack.io/v/jrvansuita/GaussianBlur.svg)](https://jitpack.io/#jrvansuita/GaussianBlur)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-GaussianBlur-green.svg?style=true)](https://android-arsenal.com/details/1/4640) 
-[![MaterialUp](https://img.shields.io/badge/MaterialUp-GaussianBlur-6ad0d9.svg?)](https://www.uplabs.com/posts/GaussianBlur)
+[![MaterialUp](https://img.shields.io/badge/MaterialUp-GaussianBlur-6ad0d9.svg?)](https://www.uplabs.com/posts/gaussianblur)
  <!-- Hits Count -->[![ghit.me](https://ghit.me/badge.svg?repo=jrvansuita/GaussianBlur)](https://ghit.me/repo/jrvansuita/GaussianBlur)
 
 # Sample app
