@@ -122,6 +122,7 @@ public class DinosaurFragment extends Fragment implements View.OnTouchListener {
             case MotionEvent.ACTION_UP:
                 Animate.with(ivBlurredImage).toggleVisibility();
                 break;
+            default: break;
         }
     }
 

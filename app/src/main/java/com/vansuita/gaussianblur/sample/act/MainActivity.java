@@ -22,9 +22,6 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
 
     private List<IOnSettingsChanged> listeners = new ArrayList();
 
-    private TextView tvRadius;
-    private TextView tvSize;
-
     private AppCompatSeekBar sbRadius;
     private AppCompatSeekBar sbSize;
 
@@ -42,13 +39,10 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
         sbRadius = (AppCompatSeekBar) findViewById(R.id.radius);
         sbSize = (AppCompatSeekBar) findViewById(R.id.size);
 
-        tvRadius = (TextView) findViewById(R.id.radius_label);
-        tvSize = (TextView) findViewById(R.id.size_label);
+        sbRadius.setTag(R.id.label, findViewById(R.id.radius_label));
+        sbSize.setTag(R.id.label, findViewById(R.id.size_label));
 
-        sbRadius.setTag(R.id.label, tvRadius);
         sbRadius.setTag(R.id.label_title, R.string.radius);
-
-        sbSize.setTag(R.id.label, tvSize);
         sbSize.setTag(R.id.label_title, R.string.size);
 
         sbRadius.setOnSeekBarChangeListener(this);
@@ -59,9 +53,7 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
         sbSize.setMax(GaussianBlur.MAX_SIZE);
         sbRadius.setProgress(GaussianBlur.MAX_RADIUS);
         sbSize.setProgress(GaussianBlur.MAX_SIZE);
-
     }
-
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
@@ -70,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
 
     @Override
     public void onStartTrackingTouch(SeekBar seekBar) {
-
+        //No code, not used.
     }
 
     @Override
@@ -96,17 +88,3 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
     }
 
 }
-
-
-
-
-/*//Synchronous
-        Bitmap catBitmap = GaussianBlur.with(this).radius(25).noScaleDown(true).render(R.mipmap.cat);
-        ivCat.setImageBitmap(catBitmap);
-
-        //Synchronous - Only scaleDown
-        Bitmap wolfBitmap = GaussianBlur.with(this).size(50).scaleDown(R.mipmap.wolf);
-        ivWolf.setImageBitmap(wolfBitmap);
-
-        //Asynchronous
-        GaussianBlur.with(this).size(400).radius(25).put(R.mipmap.stone, ivStone);*/

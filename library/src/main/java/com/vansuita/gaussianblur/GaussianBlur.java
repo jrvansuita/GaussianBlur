@@ -53,7 +53,8 @@ public class GaussianBlur {
     }
 
     @WorkerThread
-    public Bitmap render(Bitmap bitmap) {
+    public Bitmap render(Bitmap source) {
+        Bitmap bitmap = source;
         RenderScript rs = RenderScript.create(context);
 
         if (getSize() > 0)
