@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="label" type="id" />
+    <item name="label_title" type="id" />
+
+</resources>

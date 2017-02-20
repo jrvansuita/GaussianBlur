@@ -1,29 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_main"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/cat"
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:title="@string/app_name" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:tabMode="scrollable" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scaleType="fitCenter"
-        android:src="@mipmap/cat" />
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <ImageButton
-        android:id="@+id/wolf"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="fitCenter"
-        android:src="@mipmap/wolf" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
 
+            <LinearLayout style="@style/bar_holder">
 
-    <ImageButton
-        android:id="@+id/stone"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:src="@mipmap/stone" />
-</LinearLayout>
+                <TextView
+                    android:id="@+id/radius_label"
+                    style="@style/label"
+                    android:text="@string/radius" />
+
+                <android.support.v7.widget.AppCompatSeekBar
+                    android:id="@+id/radius"
+                    style="@style/seek"
+                    android:max="25" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/bar_holder">
+
+                <TextView
+                    android:id="@+id/size_label"
+                    style="@style/label"
+                    android:text="@string/size" />
+
+                <android.support.v7.widget.AppCompatSeekBar
+                    android:id="@+id/size"
+                    style="@style/seek"
+                    android:max="700" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

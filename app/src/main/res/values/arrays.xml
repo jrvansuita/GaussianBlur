@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="dinosaurs">
+        <item>Allosaurus</item>
+        <item>Brontosaurus</item>
+        <item>Estemmenosuchus</item>
+        <item>Spinosaurus</item>
+        <item>Triceratops</item>
+        <item>Tyrannosaurus Rex</item>
+        <item>Velociraptor</item>
+    </array>
+</resources>
