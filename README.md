@@ -18,7 +18,8 @@ This is an [**Android**](https://developer.android.com) project. Easy and simple
 [![MaterialUp](https://img.shields.io/badge/MaterialUp-GaussianBlur-6ad0d9.svg?)](https://www.uplabs.com/posts/GaussianBlur)
  <!-- Hits Count -->[![ghit.me](https://ghit.me/badge.svg?repo=jrvansuita/GaussianBlur)](https://ghit.me/repo/jrvansuita/GaussianBlur)
 
-# Screenshots
+# Sample app
+ Please check the sample app and feel free to help with a pull request. You can take a look at the sample app [located on this project](/app/).
 
 <img src="images/mockups/allosaurus_nexus6p-portrait.png" height='auto' width='200'/>
 <img src="images/mockups/triceratops_nexus6p-portrait.png" height='auto' width='200'/>
@@ -74,14 +75,7 @@ imageView.setImageBitmap(scaledDownBitmap);
 //Asynchronous blur
 GaussianBlur.with(context).size(400).radius(25).put(R.mipmap.your_image, imageView);
  ```
-   
-    
-# Sample app code.
- Please check the sample app and feel free to help with a pull request. You can take a look at the sample app [located on this project](/app/).
  
-# Support
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/jrvansuita) [![Beerpay](https://beerpay.io/jrvansuita/MaterialAbout/badge.svg?style=flat)](https://beerpay.io/jrvansuita/MaterialAbout)
-
 #
 
 <a href="https://plus.google.com/+JuniorVansuita" target="_blank">
