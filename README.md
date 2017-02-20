@@ -19,7 +19,7 @@ This is an [**Android**](https://developer.android.com) project. Easy and simple
 </a><!-- Android Arsenal -->
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-GaussianBlur-green.svg?style=true)](https://android-arsenal.com/details/1/4640) [![MaterialUp](https://img.shields.io/badge/MaterialUp-GaussianBlur-6ad0d9.svg?)](https://www.uplabs.com/posts/GaussianBlur)<!-- License -->
 <a target="_blank" href="/LICENSE.txt"><img src="http://img.shields.io/:License-MIT-yellow.svg" alt="MIT License" /></a><!-- Minimun Android Api -->
-<a target="_blank" href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#GINGERBREAD"><img src="https://img.shields.io/badge/API-9%2B-blue.svg?style=flat" alt="API" /></a> [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3fd61fd7128145008894a8cec0d1f8fc)](https://www.codacy.com/app/jrvansuita/GaussianBlur?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jrvansuita/GaussianBlur&amp;utm_campaign=Badge_Grade) <!-- Apptize.io -->[![Appetize.io](https://img.shields.io/badge/Apptize.io-Run%20Now-brightgreen.svg?)](https://appetize.io/embed/uvqk1ee5m2pw1genqtayncfw70?device=nexus7&scale=50&autoplay=true&orientation=portrait&deviceColor=black) [![Demo](https://img.shields.io/badge/Demo-Download-blue.svg)](http://apk-dl.com/dl/com.vansuita.gaussianblur.sample) <!-- Hits Count -->[![ghit.me](https://ghit.me/badge.svg?repo=jrvansuita/GaussianBlur)](https://ghit.me/repo/jrvansuita/GaussianBlur)
+<a target="_blank" href="https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#GINGERBREAD"><img src="https://img.shields.io/badge/API-9%2B-blue.svg?style=flat" alt="API" /></a>  <!-- Hits Count -->[![ghit.me](https://ghit.me/badge.svg?repo=jrvansuita/GaussianBlur)](https://ghit.me/repo/jrvansuita/GaussianBlur)
 
 # Screenshots
 
@@ -77,6 +77,9 @@ GaussianBlur.with(context).size(400).radius(25).put(R.mipmap.your_image, imageVi
     
 # Sample app code.
  Please check the sample app and feel free to help with a pull request. You can take a look at the sample app [located on this project](/app/).
+ 
+ [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3fd61fd7128145008894a8cec0d1f8fc)](https://www.codacy.com/app/jrvansuita/GaussianBlur?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jrvansuita/GaussianBlur&amp;utm_campaign=Badge_Grade)
+ [![Appetize.io](https://img.shields.io/badge/Apptize.io-Run%20Now-brightgreen.svg?)](https://appetize.io/embed/uvqk1ee5m2pw1genqtayncfw70?device=nexus7&scale=50&autoplay=true&orientation=portrait&deviceColor=black) [![Demo](https://img.shields.io/badge/Demo-Download-blue.svg)](http://apk-dl.com/dl/com.vansuita.gaussianblur.sample) 
 
 #
 
