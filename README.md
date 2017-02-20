@@ -28,6 +28,10 @@ This is an [**Android**](https://developer.android.com) project. Easy and simple
 <img src="images/mockups/brontosaurus_nexus6p-portrait.png" height='auto' width='200'/>
 <img src="images/mockups/velociraptor_nexus6p-portrait.png" height='auto' width='200'/>
 
+ [![Appetize.io](https://img.shields.io/badge/Apptize.io-Run%20Now-brightgreen.svg?)](https://appetize.io/embed/uvqk1ee5m2pw1genqtayncfw70?device=nexus7&scale=50&autoplay=true&orientation=portrait&deviceColor=black) [![Demo](https://img.shields.io/badge/Demo-Download-blue.svg)](http://apk-dl.com/dl/com.vansuita.gaussianblur.sample) 
+ [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3fd61fd7128145008894a8cec0d1f8fc)](https://www.codacy.com/app/jrvansuita/GaussianBlur?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jrvansuita/GaussianBlur&amp;utm_campaign=Badge_Grade)
+
+
 # Setup
 
 #### Step #1. Add the JitPack repository to your build file:
@@ -78,8 +82,7 @@ GaussianBlur.with(context).size(400).radius(25).put(R.mipmap.your_image, imageVi
 # Sample app code.
  Please check the sample app and feel free to help with a pull request. You can take a look at the sample app [located on this project](/app/).
  
- [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3fd61fd7128145008894a8cec0d1f8fc)](https://www.codacy.com/app/jrvansuita/GaussianBlur?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jrvansuita/GaussianBlur&amp;utm_campaign=Badge_Grade)
- [![Appetize.io](https://img.shields.io/badge/Apptize.io-Run%20Now-brightgreen.svg?)](https://appetize.io/embed/uvqk1ee5m2pw1genqtayncfw70?device=nexus7&scale=50&autoplay=true&orientation=portrait&deviceColor=black) [![Demo](https://img.shields.io/badge/Demo-Download-blue.svg)](http://apk-dl.com/dl/com.vansuita.gaussianblur.sample) 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/jrvansuita) [![Beerpay](https://beerpay.io/jrvansuita/MaterialAbout/badge.svg?style=flat)](https://beerpay.io/jrvansuita/MaterialAbout)
 
 #
 
