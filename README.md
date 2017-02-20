@@ -2,8 +2,7 @@
 <img src="https://github.com/jrvansuita/GaussianBlur/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true" align="left" hspace="1" vspace="1">
 
 
-<a href='https://play.google.com/store/apps/details?id=com.vansuita.gaussianblur.sample&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='_blank' align="right"><img align="right" height='36' src='https://s20.postimg.org/muzx3w4jh/google_play_badge.png' /></a>
-<a href='https://ko-fi.com/A406JCM' target='_blank' align="right"><img align="right" height='36' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=f'/></a>
+<a href='https://ko-fi.com/A406JCM' target='_blank' align="right"><img align="right" height='36' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=f'/></a><a href='https://play.google.com/store/apps/details?id=com.vansuita.gaussianblur.sample&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='_blank' align="right"><img align="right" height='36' src='https://s20.postimg.org/muzx3w4jh/google_play_badge.png' /></a>
 # Gaussian Blur
 
 
