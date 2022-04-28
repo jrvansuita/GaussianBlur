@@ -7,7 +7,7 @@
 
 
 
-This is an [**Android**](https://developer.android.com) project. Easy and simple library to apply gaussian blur filter on images. The library lets you apply a fast gaussian blur filter on any images very fast because the image will be scaled down before apply the filter. Doing it asynchronous or not.
+This is an [**Android**](https://developer.android.com) project. Easy and simple library to apply gaussian blur filter on images. The library lets you apply a gaussian blur filter on any images very fast because the image will be scaled down before apply the filter. Doing it asynchronous or not.
 
 </br>
 
